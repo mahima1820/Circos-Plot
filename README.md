@@ -15,9 +15,10 @@ data("UCSC.HG38.Human.CytoBandIdeogram")
 First of all we build the basic chromosome ideogram and take my deg file that contains log2 fold change values and p values
 
 Intersect deg gene name with biomaRT 'hgnc_symbol' gene name
-and then plot the circos plot
+and then plot the circos plot. WE can track the upregulates and down regulated genes from the plot
 
 
 output:
 
 ![circos](https://user-images.githubusercontent.com/110675838/198817920-2894168a-362c-4d61-9e80-626b88b3cbe5.png)
+we can see the outer most circle is showing the choromosomes numbers as X Y etc...and subsequently the inner circles shows the genes which are expressed at the respective positions
